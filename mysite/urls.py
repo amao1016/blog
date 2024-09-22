@@ -7,4 +7,5 @@ urlpatterns = [
     # url(r'^blog/', include('blog.urls')),
 
     path('admin/', admin.site.urls),
+    path('',include('blog.urls')),
 ]
